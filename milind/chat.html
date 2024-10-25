@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MannMitra Chatbot</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="light">
+    <div class="main-container">
+        <div class="sidebar">
+            <button class="card-btn">Homepage</button>
+            <button class="card-btn">Resources</button>
+            <button class="card-btn" id="logout-btn">Logout</button>
+        </div>
+
+        <div class="chat-section">
+            <div class="navbar">
+                <span class="logo">MannMitra</span>
+            </div>
+
+            <div class="chat-content">
+                <div class="chat-box" id="chat-box"></div>
+                <div id="typing-indicator" style="display: none;">AI is typing...</div>
+            </div>
+
+            <div class="input-section">
+                <input type="text" id="user-input" placeholder="Type your message..." />
+                <button id="send-btn">Send</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
